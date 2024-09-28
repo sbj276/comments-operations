@@ -34,3 +34,15 @@ This schema creates a table named Comments with the following columns:
 		·       By: The username or name of the commenter. 
 		·       Text: The content of the comment. 
 ·       dateofcomment: The date and time when the comment was posted. 
+
+
+
+
+## DDL
+
+CREATE TABLE Comments ( 
+ID BIGINT AUTO_INCREMENT PRIMARY KEY, 
+Byuser VARCHAR(255) NOT NULL, 
+Text TEXT NOT NULL, 
+dateofcomment DATETIME NOT NULL 
+);
